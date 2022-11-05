@@ -51,5 +51,3 @@ def dict_builder(analysis_type, score):
         senti_neg_score = 1-senti_score
         return [{"Democrats" : float(faction_score), "Republicans" : float(faction_neg_score)},
                 {"positive" : float(senti_score), "negative" : float(senti_neg_score)}]
-
-joint_analysis("Democrats")
