@@ -1,29 +1,5 @@
-## Steps to run the UI:
-
-1.  Download dependencies from requirements.txt
-
-2.  Ensure that the 4 models are placed in the backend/model folder,
-    A copy of the models can also be found here:
-    https://drive.google.com/drive/folders/1SNqxib7TuLN9v92l0yk9SstHJLs7UQPG?usp=sharing
-
-3.  Navigate to the ui folder and run main.py
-
-4.  See UI at http://127.0.0.1:7860
-
-
-## Steps to run the backend without the UI:
-
-1.  Download dependencies from requirements.txt
-
-2.  Navigate to the backend folder and run run.py
-
-3.  Or use the following command on Linux:
-    nohup python3 run.py > out.out
-
-
 ## Directory Structure
 
-.
  * [requirements.txt](./requirements.txt)
  * [README.md](./README.md)
  * [backend](./backend)
@@ -55,6 +31,29 @@
    * [main.py](./ui/main.py)
    * [wrapper.py](./ui/wrapper.py)
    * [\_\_pycache\_\_](./ui/__pycache__)
+
+
+## Steps to run the UI:
+
+1.  Download dependencies from requirements.txt
+
+2.  Ensure that the 4 models are placed in the backend/model folder,
+    A copy of the models can also be found here:
+    https://drive.google.com/drive/folders/1SNqxib7TuLN9v92l0yk9SstHJLs7UQPG?usp=sharing
+
+3.  Navigate to the ui folder and run main.py
+
+4.  See UI at http://127.0.0.1:7860
+
+
+## Steps to run the backend without the UI:
+
+1.  Download dependencies from requirements.txt
+
+2.  Navigate to the backend folder and run run.py
+
+3.  Or use the following command on Linux:
+    nohup python3 run.py > out.out
 
 
 ## Summary of folder contents:
