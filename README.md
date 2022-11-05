@@ -16,6 +16,8 @@
       * [sentiment.h5](./backend/model/sentiment.h5)
       * [subjectivity.h5](./backend/model/subjectivity.h5)
       * [sarcasm.h5](./backend/model/sarcasm.h5)
+ * [data](./data)
+   * [PennsylvaniaMidterms11Aug11Oct2.xlsx](./data/PennsylvaniaMidterms11Aug11Oct2.xlsx)
  * [notebooks](./notebooks)
    * [Sarcasm.ipynb](./notebooks/Sarcasm.ipynb)
    * [base_models_and_joint_model.ipynb](./notebooks/base_models_and_joint_model.ipynb)
